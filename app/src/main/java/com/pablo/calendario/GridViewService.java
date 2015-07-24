@@ -19,12 +19,9 @@ public class GridViewService extends RemoteViewsService {
 class GridRemoteViewsFactory implements RemoteViewsService.RemoteViewsFactory {
 
     private final Context contexto;
-    private final int appWidgetId;
 
     public GridRemoteViewsFactory(Context context, Intent intent) {
         contexto = context;
-        appWidgetId = intent.getIntExtra(AppWidgetManager.EXTRA_APPWIDGET_ID,
-                AppWidgetManager.INVALID_APPWIDGET_ID);
     }
 
     @Override
@@ -44,7 +41,7 @@ class GridRemoteViewsFactory implements RemoteViewsService.RemoteViewsFactory {
 
     @Override
     public int getCount() {
-        return 10;
+        return 30;
     }
 
     @Override

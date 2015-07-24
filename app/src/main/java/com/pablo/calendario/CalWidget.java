@@ -6,6 +6,7 @@ import android.appwidget.AppWidgetProvider;
 import android.content.Context;
 import android.content.Intent;
 import android.net.Uri;
+import android.os.Bundle;
 import android.widget.RemoteViews;
 
 
@@ -13,8 +14,6 @@ import android.widget.RemoteViews;
  * Implementation of App Widget functionality.
  */
 public class CalWidget extends AppWidgetProvider {
-    public static final String TOAST_ACTION = "com.example.android.stackwidget.TOAST_ACTION";
-    public static final String EXTRA_ITEM = "com.example.android.stackwidget.EXTRA_ITEM";
 
     @Override
     public void onDeleted(Context context, int[] appWidgetIds) {

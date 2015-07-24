@@ -2,8 +2,8 @@
         android:id="@+id/day_gridcell"
         android:layout_gravity="center"
         android:textColor="#FFFFFF"
-        android:background="@android:color/holo_red_dark"
+        android:background="#de4195e1"
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
-</Button>
+    </Button>
