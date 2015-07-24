@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Calendario</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="empty_view_text">This is the empty view</string>
+</resources>

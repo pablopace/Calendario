@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@android:color/holo_blue_dark">
+
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/calendar"
+    android:horizontalSpacing="-1px"
+    android:verticalSpacing="-1px"
+    android:numColumns="7"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/empty_view2"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:gravity="center"
+android:textColor="#ffffff"
+android:textStyle="bold"
+android:text="@string/empty_view_text"
+android:textSize="30sp"
+android:background="@color/accent_material_light"/>
+
+
+</LinearLayout>
