@@ -65,14 +65,7 @@ class StackRemoteViewsFactory implements RemoteViewsService.RemoteViewsFactory {
         // We construct a remote views item based on our widget item xml file, and set the
         // text based on the position.
 
-        Intent intent = new Intent(contexto, GridViewService.class);
-        /*intent.putExtra(AppWidgetManager.EXTRA_APPWIDGET_ID, appWidgetId);
-        intent.setData(Uri.parse(intent.toUri(Intent.URI_INTENT_SCHEME)));*/
-
         RemoteViews rv = new RemoteViews(contexto.getPackageName(), R.layout.item);
-        rv.setRemoteAdapter(R.id.calendar, intent);
-        rv.setEmptyView(R.id.calendar, R.id.empty_view);
-
         return rv;
     }
 
